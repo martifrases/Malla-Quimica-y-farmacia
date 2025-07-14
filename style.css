@@ -1,13 +1,13 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #fde8f0;
+  background-color: #fbd0dc; /* fondo rosado pastel más oscuro */
   margin: 0;
   padding: 20px;
 }
 
 h1 {
   text-align: center;
-  color: #b0005a;
+  color: #800040; /* rosado oscuro profundo */
 }
 
 #malla {
@@ -18,8 +18,8 @@ h1 {
 }
 
 .ramo {
-  background-color: #ffcce6;
-  border: 2px solid #b0005a;
+  background-color: #f48fb1; /* rosado más intenso */
+  border: 2px solid #800040;
   border-radius: 8px;
   padding: 12px;
   width: 180px;
@@ -28,16 +28,17 @@ h1 {
   transition: 0.3s;
   opacity: 0.5;
   pointer-events: none;
+  color: #fff;
 }
 
 .ramo:hover {
-  background-color: #ff99cc;
+  background-color: #ec407a; /* hover rosado aún más oscuro */
 }
 
 .ramo.aprobado {
   background-color: #ffe6f0;
-  border: 2px solid #800040;
-  color: #800040;
+  border: 2px solid #4a002d;
+  color: #4a002d;
   opacity: 1;
 }
 
@@ -45,7 +46,7 @@ h1 {
   width: 100%;
   margin: 20px 0 5px;
   font-weight: bold;
-  color: #800040;
+  color: #4a002d;
   text-align: center;
   font-size: 1.3em;
 }

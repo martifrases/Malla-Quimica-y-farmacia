@@ -130,3 +130,4 @@ function aprobarRamo(codigo) {
 }
 
 window.onload = cargarMalla;
+
